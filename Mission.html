@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Mission|Shah Fahad 73876 </title>
+    <style>
+         :root {
+            --main-color: #4CAF50;
+            /* Main Green */
+            --dark-green: #2E7D32;
+            /* Darker Green */
+            --text-color: #333;
+            /* Dark Text */
+            --background-color: #f4f4f4;
+            /* Light Background */
+            --accent-color: #e0f7e0;
+            /* Light Green */
+            --font-family: 'Arial', sans-serif;
+        }
+        
+        body {
+            font-family: var(--font-family);
+            margin: 0;
+            padding: 0;
+            background-color: var(--background-color);
+            color: var(--text-color);
+        }
+        
+        header {
+            background-color: var(--main-color);
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        
+        .logo h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        main {
+            padding: 20px;
+        }
+        
+        .mission-intro {
+            background-color: var(--accent-color);
+            padding: 40px;
+            text-align: center;
+        }
+        
+        .mission-values {
+            padding: 40px;
+            background-color: white;
+        }
+        
+        .values-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        
+        .value {
+            background: var(--main-color);
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        
+        .mission-impact {
+            padding: 40px;
+            background-color: var(--accent-color);
+        }
+        
+        .interactive-map,
+        .video-section,
+        .infographics,
+        .quotes-carousel {
+            padding: 40px;
+            background-color: white;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        
+        .interactive-map iframe {
+            border: none;
+        }
+        
+        .video-section video {
+            width: 100%;
+            border-radius: 8px;
+        }
+        
+        .infographic-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 20px;
+        }
+        
+        .infographic {
+            background: var(--main-color);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 8px;
+        }
+        
+        .quotes-carousel {
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .quotes-carousel blockquote {
+            display: none;
+            transition: opacity 0.5s ease;
+        }
+        
+        .quotes-carousel blockquote.active {
+            display: block;
+            opacity: 1;
+        }
+        
+        .get-involved {
+            padding: 40px;
+            text-align: center;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background-color: var(--dark-green);
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 15px;
+            transition: background-color 0.3s ease;
+        }
+        
+        .cta-button:hover {
+            background-color: #388E3C;
+            /* Darker Green on hover */
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: var(--main-color);
+            color: white;
+        }
+        /* Media Queries for Responsiveness */
+        
+        @media (max-width: 600px) {
+            nav ul li {
+                display: block;
+                margin: 10px 0;
+            }
+            .values-grid,
+            .infographic-grid {
+                grid-template-columns: 1fr;
+            }
+            .value,
+            .infographic {
+                width: 90%;
+                margin: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h1>Shah Fahad 73876</h1>
+            <p>Restoring Nature for Future Generations</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="initiatives.html">Initiatives</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="mission-intro">
+            <h2>Our Mission</h2>
+            <p>At Tree Rehabilitation, we are dedicated to restoring and preserving the earth’s forests and natural habitats through community engagement, education, and sustainable practices.</p>
+        </section>
+
+        <section class="mission-values">
+            <h3>Our Core Values</h3>
+            <div class="values-grid">
+                <div class="value">
+                    <h4>Sustainability</h4>
+                    <p>We believe in practices that not only restore but also sustain our ecosystems for future generations.</p>
+                </div>
+                <div class="value">
+                    <h4>Community</h4>
+                    <p>Engaging local communities is essential. We work with volunteers, schools, and organizations to spread awareness and action.</p>
+                </div>
+                <div class="value">
+                    <h4>Education</h4>
+                    <p>Through workshops and events, we educate people about the importance of trees and conservation efforts.</p>
+                </div>
+                <div class="value">
+                    <h4>Innovation</h4>
+                    <p>We utilize innovative approaches to reforestation, ensuring that our methods are effective and environmentally friendly.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="mission-impact">
+            <h3>Our Impact</h3>
+            <p>Since our inception, we have planted over 10,000 trees, restored degraded lands, and educated hundreds of individuals on sustainable practices. Our projects aim to:</p>
+            <ul>
+                <li>Enhance biodiversity in local ecosystems.</li>
+                <li>Combat climate change through reforestation.</li>
+                <li>Provide green spaces for communities.</li>
+                <li>Support wildlife habitats and promote ecological balance.</li>
+            </ul>
+        </section>
+
+        <section class="interactive-map">
+            <h3>Where We Plant Trees</h3>
+            <iframe src="https://www.google.com/maps/d/embed?mid=1eW2zd5h8n8n8NfB5-Du9K5npGgI" width="100%" height="400"></iframe>
+            <p>Explore the regions where we've made an impact through our tree planting efforts.</p>
+        </section>
+
+        <section class="video-section">
+            <h3>Watch Our Mission in Action</h3>
+            <video controls>
+                <source src="videos/mission-video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p>A short overview of our initiatives and community involvement.</p>
+        </section>
+
+        <section class="infographics">
+            <h3>Our Impact in Numbers</h3>
+            <div class="infographic-grid">
+                <div class="infographic">
+                    <h4>10,000+</h4>
+                    <p>Trees Planted</p>
+                </div>
+                <div class="infographic">
+                    <h4>150+</h4>
+                    <p>Community Workshops</p>
+                </div>
+                <div class="infographic">
+                    <h4>500+</h4>
+                    <p>Volunteers Engaged</p>
+                </div>
+                <div class="infographic">
+                    <h4>20+</h4>
+                    <p>Restored Ecosystems</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="quotes-carousel">
+            <h3>What Our Team Says</h3>
+            <div class="carousel">
+                <blockquote>
+                    <p>"Every tree we plant is a step towards a greener future!"</p>
+                    <cite>- Maria T., Project Coordinator</cite>
+                </blockquote>
+                <blockquote>
+                    <p>"The impact of our work can be seen in the smiles of the community."</p>
+                    <cite>- Liam S., Community Engagement Officer</cite>
+                </blockquote>
+                <blockquote>
+                    <p>"I am proud to be part of a team that cares so deeply for our planet."</p>
+                    <cite>- Zoe K., Volunteer Leader</cite>
+                </blockquote>
+            </div>
+        </section>
+
+        <section class="get-involved">
+            <h3>Join Us in Making a Difference</h3>
+            <p>We invite you to be part of our mission! Whether you want to volunteer, donate, or simply spread the word, every action counts. Together, we can create a healthier planet.</p>
+            <a href="contact.html" class="cta-button">Get Involved</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Tree Rehabilitation. All rights reserved.</p>
+        <p>Follow us:
+            <a href="#">Facebook</a> |
+            <a href="#">Twitter</a> |
+            <a href="#">Instagram</a>
+        </p>
+    </footer>
+
+    <script>
+        // Simple carousel logic for quotes
+        let quotes = document.querySelectorAll('.quotes-carousel blockquote');
+        let currentQuote = 0;
+
+        function showNextQuote() {
+            quotes[currentQuote].classList.remove('active');
+            currentQuote = (currentQuote + 1) % quotes.length;
+            quotes[currentQuote].classList.add('active');
+        }
+
+        // Show first quote
+        quotes[currentQuote].classList.add('active');
+        setInterval(showNextQuote, 5000); // Change quote every 5 seconds
+    </script>
+</body>
+
+</html>
