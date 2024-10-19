@@ -1,0 +1,40 @@
+/* global.css: Basic styles for the entire site */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  background-color: #478cb1;
+}
+h1 {
+  color: #ffffff;
+  text-align: center;
+  font-size: 45px;
+}
+h2 {
+  margin-top: -2%;
+  color: #ffffff;
+  text-align: center;
+  font-size: 30px;
+}
+section a {
+  margin: 0 10px;
+  color: darkgreen;
+  line-height: 2;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 1700px) {
+  .container {
+    text-align: center;
+  }
+}
+.image-container {
+  text-align: center; /* Center the image inside the container */
+}
+
+img {
+  height: 300px; /* Set a specific height */
+  width: 25%; /* Maintain aspect ratio */
+  max-width: 100%; /* Ensure the image does not exceed the container's width */
+}
+
